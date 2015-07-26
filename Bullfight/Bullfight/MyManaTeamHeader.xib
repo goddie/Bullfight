@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MyManaTeamHeader">
+            <connections>
+                <outlet property="botView" destination="L9Q-NY-yTC" id="H8h-5f-cqO"/>
+                <outlet property="btn1" destination="iu4-aQ-xWj" id="urK-jo-GkF"/>
+                <outlet property="img" destination="vhr-pc-YFO" id="ZFI-39-n2f"/>
+                <outlet property="txtDate" destination="yys-Kk-3BL" id="Jli-pt-l49"/>
+                <outlet property="txtInfo" destination="gfe-sQ-mW0" id="BvS-bl-ctD"/>
+                <outlet property="txtName" destination="XSh-Kn-OYP" id="tf5-gX-Ter"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="316"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="teamIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="vhr-pc-YFO">
+                    <rect key="frame" x="260" y="18" width="80" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="MYl-KA-1Ob"/>
+                        <constraint firstAttribute="width" constant="80" id="aKO-Cn-kH8"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="北京潮人球迷" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XSh-Kn-OYP">
+                    <rect key="frame" x="224" y="108" width="153" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="6Fi-3k-rJ5"/>
+                        <constraint firstAttribute="width" constant="153" id="a8X-rH-VOP"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2015年7月20日成立" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yys-Kk-3BL">
+                    <rect key="frame" x="226" y="130" width="149" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="CQJ-Uv-hbn"/>
+                        <constraint firstAttribute="width" constant="149" id="OuC-Iq-2DK"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.46274509800000002" green="0.54901960780000003" blue="0.60392156860000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="球队介绍球队介绍球队介绍球队介绍球队介绍球队介绍球队介绍球队介绍球队介绍球队介绍球队介绍球队介绍球队介绍球队介绍球队介绍球队介绍" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gfe-sQ-mW0">
+                    <rect key="frame" x="18" y="159" width="564" height="58"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="58" id="8z8-AI-Aly"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.46274509800000002" green="0.54901960780000003" blue="0.60392156860000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iu4-aQ-xWj">
+                    <rect key="frame" x="250" y="225" width="100" height="30"/>
+                    <color key="backgroundColor" red="0.01176470588" green="0.090196078430000007" blue="0.1843137255" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="3nK-j4-7gw"/>
+                        <constraint firstAttribute="width" constant="100" id="hHZ-hi-pUc"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title="管理球队">
+                        <color key="titleColor" red="0.46274509800000002" green="0.54901960780000003" blue="0.60392156860000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btn1Click:" destination="-1" eventType="touchUpInside" id="6fe-Zk-VsI"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L9Q-NY-yTC">
+                    <rect key="frame" x="0.0" y="280" width="600" height="36"/>
+                    <color key="backgroundColor" red="0.8862745098" green="0.23529411759999999" blue="0.27450980390000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="36" id="Lzf-ph-9qV"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.13725490200000001" green="0.23137254900000001" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="L9Q-NY-yTC" secondAttribute="trailing" id="3ab-H3-5M9"/>
+                <constraint firstAttribute="centerX" secondItem="vhr-pc-YFO" secondAttribute="centerX" id="40C-sz-Ik7"/>
+                <constraint firstItem="gfe-sQ-mW0" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="18" id="4Wh-Se-vXI"/>
+                <constraint firstAttribute="centerX" secondItem="iu4-aQ-xWj" secondAttribute="centerX" id="7B7-XQ-IHa"/>
+                <constraint firstAttribute="centerX" secondItem="XSh-Kn-OYP" secondAttribute="centerX" id="8u8-4s-H9G"/>
+                <constraint firstItem="vhr-pc-YFO" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="18" id="BDt-t0-QHJ"/>
+                <constraint firstAttribute="trailing" secondItem="gfe-sQ-mW0" secondAttribute="trailing" constant="18" id="Obb-sY-3sa"/>
+                <constraint firstItem="iu4-aQ-xWj" firstAttribute="top" secondItem="gfe-sQ-mW0" secondAttribute="bottom" constant="8" id="SMd-Dh-qSa"/>
+                <constraint firstItem="yys-Kk-3BL" firstAttribute="top" secondItem="XSh-Kn-OYP" secondAttribute="bottom" constant="1" id="Ya0-SM-fmI"/>
+                <constraint firstItem="L9Q-NY-yTC" firstAttribute="top" secondItem="iu4-aQ-xWj" secondAttribute="bottom" constant="25" id="gux-NE-0E2"/>
+                <constraint firstItem="XSh-Kn-OYP" firstAttribute="top" secondItem="vhr-pc-YFO" secondAttribute="bottom" constant="10" id="j1k-ad-bkC"/>
+                <constraint firstAttribute="centerX" secondItem="yys-Kk-3BL" secondAttribute="centerX" id="kiN-Rr-Oyo"/>
+                <constraint firstItem="L9Q-NY-yTC" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="mIm-it-Vn3"/>
+                <constraint firstItem="gfe-sQ-mW0" firstAttribute="top" secondItem="yys-Kk-3BL" secondAttribute="bottom" constant="8" id="zd7-ME-Qco"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="177" y="60"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="teamIcon.png" width="147" height="147"/>
+    </resources>
+</document>

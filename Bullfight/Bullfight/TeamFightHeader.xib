@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TeamFightHeader">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="215"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="teamIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="eGW-RN-Vnt">
+                    <rect key="frame" x="160" y="48" width="65" height="65"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="65" id="PHp-oK-MvO"/>
+                        <constraint firstAttribute="width" constant="65" id="fUt-Vf-LdQ"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nGg-D5-MrF">
+                    <rect key="frame" x="300" y="58" width="1" height="100"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="Q3N-Eg-pEr"/>
+                        <constraint firstAttribute="width" constant="1" id="a3g-Io-dsO"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="未开始" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IDF-nl-u20">
+                    <rect key="frame" x="243" y="58" width="114" height="29"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="29" id="cW5-HL-PeX"/>
+                        <constraint firstAttribute="width" constant="114" id="hLk-8d-Olu"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="北京潮人球迷队" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K0F-Lz-PjD">
+                    <rect key="frame" x="127" y="130" width="131" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="131" id="OEs-uC-1lo"/>
+                        <constraint firstAttribute="height" constant="44" id="y6O-kf-vb1"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="teamIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="zBg-qK-VUq">
+                    <rect key="frame" x="384" y="48" width="65" height="65"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="65" id="9R2-i8-g12"/>
+                        <constraint firstAttribute="height" constant="65" id="WWy-hj-Q1V"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="北京潮人球迷队" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VK4-Nb-nd3">
+                    <rect key="frame" x="351" y="130" width="131" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="bph-tf-rXG"/>
+                        <constraint firstAttribute="width" constant="131" id="xaM-FG-NHU"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="blw-VM-F0j">
+                    <rect key="frame" x="266" y="131" width="21" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="21" id="0DD-Eb-F5E"/>
+                        <constraint firstAttribute="height" constant="21" id="1QT-Qi-abt"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.92549019610000005" green="0.3803921569" blue="0.23921568630000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gyh-y0-57k">
+                    <rect key="frame" x="313" y="131" width="21" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="21" id="O8w-U3-ZPc"/>
+                        <constraint firstAttribute="height" constant="21" id="eFE-xS-HIn"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.92549019610000005" green="0.3803921569" blue="0.23921568630000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dQp-LU-DkM">
+                    <rect key="frame" x="289" y="131" width="22" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="22" id="SMB-zF-ta4"/>
+                        <constraint firstAttribute="height" constant="21" id="UX6-jG-sUS"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.57254901960000004" green="0.62352941179999999" blue="0.6588235294" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="blw-VM-F0j" firstAttribute="top" secondItem="IDF-nl-u20" secondAttribute="bottom" constant="44" id="2eJ-YA-ZYr"/>
+                <constraint firstAttribute="centerX" secondItem="IDF-nl-u20" secondAttribute="centerX" id="2eW-US-PMh"/>
+                <constraint firstAttribute="centerX" secondItem="dQp-LU-DkM" secondAttribute="centerX" id="70N-kf-DjM"/>
+                <constraint firstItem="Gyh-y0-57k" firstAttribute="top" secondItem="IDF-nl-u20" secondAttribute="bottom" constant="44" id="73X-Te-bI4"/>
+                <constraint firstItem="dQp-LU-DkM" firstAttribute="top" secondItem="IDF-nl-u20" secondAttribute="bottom" constant="44" id="7Nq-G0-XT2"/>
+                <constraint firstItem="K0F-Lz-PjD" firstAttribute="top" secondItem="eGW-RN-Vnt" secondAttribute="bottom" constant="17" id="80F-xr-jXP"/>
+                <constraint firstItem="zBg-qK-VUq" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="48" id="Ciq-eW-QLZ"/>
+                <constraint firstItem="Gyh-y0-57k" firstAttribute="leading" secondItem="dQp-LU-DkM" secondAttribute="trailing" constant="2" id="DMZ-Fq-96p"/>
+                <constraint firstItem="eGW-RN-Vnt" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="48" id="IvY-2U-jBa"/>
+                <constraint firstAttribute="centerX" secondItem="nGg-D5-MrF" secondAttribute="centerX" id="JrF-Xo-Jvd"/>
+                <constraint firstItem="VK4-Nb-nd3" firstAttribute="top" secondItem="zBg-qK-VUq" secondAttribute="bottom" constant="17" id="TAd-qK-Q2A"/>
+                <constraint firstAttribute="centerY" secondItem="nGg-D5-MrF" secondAttribute="centerY" id="VAh-VK-NcV"/>
+                <constraint firstItem="dQp-LU-DkM" firstAttribute="leading" secondItem="blw-VM-F0j" secondAttribute="trailing" constant="2" id="c9P-2U-cFH"/>
+                <constraint firstItem="VK4-Nb-nd3" firstAttribute="leading" secondItem="nGg-D5-MrF" secondAttribute="trailing" constant="50" id="eaE-In-4hE"/>
+                <constraint firstItem="IDF-nl-u20" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="58" id="gnl-Vl-CPl"/>
+                <constraint firstItem="zBg-qK-VUq" firstAttribute="leading" secondItem="nGg-D5-MrF" secondAttribute="trailing" constant="83" id="gpd-25-A7Q"/>
+                <constraint firstItem="nGg-D5-MrF" firstAttribute="leading" secondItem="K0F-Lz-PjD" secondAttribute="trailing" constant="42" id="h9S-VH-a1O"/>
+                <constraint firstItem="nGg-D5-MrF" firstAttribute="leading" secondItem="eGW-RN-Vnt" secondAttribute="trailing" constant="75" id="zkN-Ih-BzQ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="545" y="-30.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="teamIcon.png" width="147" height="147"/>
+    </resources>
+</document>

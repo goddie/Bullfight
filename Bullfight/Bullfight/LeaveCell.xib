@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="LeaveCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="66"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="teamIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="ACF-w2-84e">
+                        <rect key="frame" x="8" y="12" width="42" height="42"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="42" id="BqR-lq-Htq"/>
+                            <constraint firstAttribute="height" constant="42" id="oC7-kD-J6G"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="欧阳正华" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ABJ-4s-7aE">
+                        <rect key="frame" x="58" y="14" width="81" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="np3-s8-0jR"/>
+                            <constraint firstAttribute="width" constant="81" id="sXw-7N-yGn"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="后卫" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Vv-TM-Bzm">
+                        <rect key="frame" x="58" y="32" width="81" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="OHH-1e-ns0"/>
+                            <constraint firstAttribute="width" constant="81" id="jLz-xM-VzP"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Wg-8h-t73">
+                        <rect key="frame" x="288" y="21" width="24" height="23"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="23" id="Brm-0G-jV1"/>
+                            <constraint firstAttribute="width" constant="24" id="Of3-e0-XNq"/>
+                        </constraints>
+                        <state key="normal" image="shared_checkbox_unchecked.png">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="btn1Click:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="auI-ta-dn8"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ACF-w2-84e" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="F0p-Kl-be0"/>
+                    <constraint firstItem="7Vv-TM-Bzm" firstAttribute="top" secondItem="ABJ-4s-7aE" secondAttribute="bottom" constant="-3" id="Ge6-FD-ND8"/>
+                    <constraint firstItem="ABJ-4s-7aE" firstAttribute="leading" secondItem="ACF-w2-84e" secondAttribute="trailing" constant="8" id="QLH-nj-Bt0"/>
+                    <constraint firstItem="7Vv-TM-Bzm" firstAttribute="leading" secondItem="ACF-w2-84e" secondAttribute="trailing" constant="8" id="YCb-6i-kgE"/>
+                    <constraint firstItem="ABJ-4s-7aE" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="6" id="aqo-VB-mBJ"/>
+                    <constraint firstItem="7Wg-8h-t73" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="cl3-3T-yfj"/>
+                    <constraint firstAttribute="centerY" secondItem="7Wg-8h-t73" secondAttribute="centerY" id="k3t-9l-wdJ"/>
+                    <constraint firstAttribute="centerY" secondItem="ACF-w2-84e" secondAttribute="centerY" id="pTa-8b-1xN"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="btn1" destination="7Wg-8h-t73" id="3qW-vU-idD"/>
+                <outlet property="img1" destination="ACF-w2-84e" id="10F-TN-ScT"/>
+                <outlet property="txtName" destination="ABJ-4s-7aE" id="yq5-8L-sXz"/>
+                <outlet property="txtPos" destination="7Vv-TM-Bzm" id="r6O-lN-css"/>
+            </connections>
+            <point key="canvasLocation" x="532" y="417"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="shared_checkbox_unchecked.png" width="24" height="23"/>
+        <image name="teamIcon.png" width="147" height="147"/>
+    </resources>
+</document>
